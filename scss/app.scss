@@ -1,0 +1,12 @@
+@import "partials/vars";
+@import "partials/login";
+
+.status-bar {
+    background: url(../img/top-bar.png) no-repeat;
+    width: 363px;
+    height: 16px;
+}
+.mobile-container {
+    width: 375px;
+    margin: 0 auto;
+}
