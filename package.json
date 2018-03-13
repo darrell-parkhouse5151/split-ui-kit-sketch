@@ -2,6 +2,6 @@
   "name": "split-ui-kit-sketch",
   "version": "0.0.1",
   "dependencies": {
-    
+    "jquery": "^3.3.1"
   }
 }
