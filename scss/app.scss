@@ -1,12 +1,26 @@
 @import "partials/vars";
 @import "partials/login";
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body-bg-color;
+}
+
 .status-bar {
     background: url(../img/top-bar.png) no-repeat;
     width: 363px;
     height: 16px;
 }
+
+
 .mobile-container {
     width: 375px;
     margin: 0 auto;
+
+    .main-content {
+        padding: 0 15px;
+    }
 }
