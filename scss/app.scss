@@ -1,26 +1,38 @@
 @import "partials/vars";
+@import "partials/top-bar";
 @import "partials/login";
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
     background-color: $body-bg-color;
+    font-family: $base-font;
 }
 
 .status-bar {
     background: url(../img/top-bar.png) no-repeat;
     width: 363px;
     height: 16px;
+    margin: 0 auto;
 }
 
 
 .mobile-container {
     width: 375px;
-    margin: 0 auto;
-
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 5px;
     .main-content {
-        padding: 0 15px;
+        padding: 15px;
     }
+}
+
+input {
+    border: none;
 }
