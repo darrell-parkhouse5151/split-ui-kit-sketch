@@ -1,3 +1,4 @@
 .idea
 prepros-6.config
 css/app.css.map
+node_modules
