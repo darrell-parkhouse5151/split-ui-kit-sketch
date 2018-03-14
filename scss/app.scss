@@ -1,6 +1,7 @@
 @import "partials/vars";
-@import "partials/top-bar";
-@import "partials/login";
+
+@import "modules/top-bar";
+@import "moduless/login";
 
 * {
     box-sizing: border-box;
